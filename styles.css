@@ -1,0 +1,90 @@
+body {
+    background-color: #202733;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#advice {
+    background-color: #313A48;
+    width: 33.75rem;
+    height: 20.75rem;
+    border-radius: 0.938rem;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 2em;
+}
+
+h1 {
+    font-size: 0.813rem;
+    line-height: 1.11rem;
+    letter-spacing: 0.256rem;
+    color: #53FFAA;
+    padding-top: 3rem;
+}
+
+#quote-display {
+    font-size: 1.75rem;
+    line-height: 2.391rem;
+    letter-spacing: -0.3px;
+    color: #CEE3E9;
+    margin-top: 1.5rem;
+}
+
+.rule-container {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+hr {
+    width: 12.25rem;
+    height: 1px;
+    background-color: #4F5D74;
+    border: none;
+    margin: 0 0.625rem;
+}
+
+.bar {
+    width: 0.375rem;
+    height: 1rem;
+    border-radius: 0.188rem;
+    background-color: #CEE3E9;
+    margin: 2.5rem 5px;
+}
+
+#generate-btn {
+    width: 4rem;
+    height: 4rem;
+    background-color: #53FFAA;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    bottom: -3rem;
+    left: calc(50% - 2rem);
+    border: none;
+    margin-top: .25em;
+}
+
+#generate-btn:hover,
+#generate-btn:focus {
+    box-shadow: 0 0 2rem #53FFAA;
+}
+
+@media screen and (max-width: 900px) {
+    #advice {
+        width: 21rem;
+        height: 21rem;
+    }
+}
