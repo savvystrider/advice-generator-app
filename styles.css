@@ -18,8 +18,9 @@ main {
 
 #advice {
     background-color: #313A48;
-    width: 33.75rem;
-    height: 20.75rem;
+    width: 30%;
+    /* width: 33.75rem; */
+    /* height: 20.75rem; */
     border-radius: 0.938rem;
     margin: 0 auto;
     position: relative;
@@ -45,7 +46,7 @@ h1 {
 .rule-container {
     display: flex;
     align-items: center;
-    margin-top: 2.5rem;
+    /* margin-top: 2.5rem; */
 }
 
 hr {
@@ -82,9 +83,20 @@ hr {
     box-shadow: 0 0 2rem #53FFAA;
 }
 
+#generate-btn:active {
+    /* position: relative; */
+    bottom: -3.2rem;
+}
+
 @media screen and (max-width: 900px) {
     #advice {
         width: 21rem;
-        height: 21rem;
+        height: 25rem;
+    }
+
+    #quote-display {
+        font-size: 1.5rem;
+        line-height: 2.049rem;
+        letter-spacing: -0.26px;
     }
 }
